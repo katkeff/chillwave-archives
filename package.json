@@ -1,0 +1,23 @@
+{
+  "name": "chillwave-archives",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/app.js",
+  "bin": {
+    "chillwave-archives": "bin/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "pg": "^8.7.3",
+    "sequelize": "^6.20.1"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "seed": "node ./bin/seed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
